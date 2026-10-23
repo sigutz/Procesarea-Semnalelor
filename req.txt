@@ -1,2 +1,4 @@
 numpy
 matplot
+scipy
+sounddevice

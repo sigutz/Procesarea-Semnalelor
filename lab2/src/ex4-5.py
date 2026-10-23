@@ -14,4 +14,9 @@ durata = 1
 axa_real = np.linspace(0, durata, durata*fs)
 axa_sin_a = f_sin_a(axa_real)
 axa_sin_b = f_sin_b(axa_real)
-rezultat_sin = axa_sin_a.append(axa_sin_b)
+rezultat_sin = np.concatenate((axa_sin_a, axa_sin_b))
+
+sdd.play(rezultat_sin, fs)
+sdd.wait()
+
+# e un bipait mult mai inalt care zgarie pe urechi
