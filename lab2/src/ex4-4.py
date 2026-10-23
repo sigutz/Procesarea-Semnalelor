@@ -29,5 +29,5 @@ axs[2].set_title("adunate")
 for ax in axs:
     ax.set_xlim([0, 0.05])
 
-plt.show()
 plt.savefig("./lab2/fig/lab2_ex4_4.pdf")
+plt.show()
